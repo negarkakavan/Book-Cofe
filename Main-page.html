@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main-page</title>
     <link rel="stylesheet" href="./Main-page.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./imgs/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./todo-list.css" />
+    <link rel="preload" href="./imgs/icon-check.svg" as="image" type="image/svg+xml" crossorigin="anonymous">
 </head>
 
 <body>
@@ -31,17 +37,114 @@
             </div>
         </div>
         <nav class="navbar-two">
-            <ul class="ul">
-                <li>نویسندگان</li>
-                <li>انتشارات</li>
-                <li>بازی فکری</li>
-                <li>لوازم التحریر</li>
-            </ul>
+            <div><img src="./img/dark-mode.png" width="30px" height="30px"></div>
+            <div><img src="./img/question-mark.png" width="30px" height="30px"></div>
+            <div> <img src="./img/cart.png" width="30px" height="30px"></div>
+            <div><img src="./img/male-user.png" width="30px" height="30px"></div>
         </nav>
         <marquee>
-            به وبسایت کافه کتاب خوش آمدید
+            به وب سایت کافه کتاب خوش آمدید
         </marquee>
     </header>
+    <!-- main -->
+    <main class="main">
+        <!-- aside -->
+        <aside id="sidebar" class="aside">
+            
+            <div class="div">
+                <div class="row"
+                    style="background-image: url(./img/home.png); background-size: 20px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <a href="./Main-page.html" style="padding-top: 20px; font-size: 20px;">صفحه اصلی</a>
+                </div>
+                <hr>
+                <div class="row"
+                    style="background-image: url(./img/moleskine.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <p style="padding-top: 20px; font-size: 20px;">کتاب های متنی</p>
+                </div>
+                <hr>
+                <div class="row"
+                    style="background-image: url(./img/audio-book.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <p style="padding-top: 15px; font-size: 20px;">کتاب های صوتی</p>
+                </div>
+                <hr>
+                <div class="row"
+                    style="background-image: url(./img/free-book.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <p style="padding-top: 20px; font-size: 20px;">کتاب های رایگان</p>
+                </div>
+                <hr>
+                <div class="row"
+                    style="background-image: url(./img/health-book.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <p style="padding-top: 15px; font-size: 20px;">کتاب های پرفروش</p>
+                </div>
+                <hr>
+                <div class="row"
+                    style="background-image: url(./img/moleskine.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <p style="padding-top: 20px; font-size: 20px;">داستان و رمان</p>
+                </div>
+                <hr>
+                <div class="row"
+                    style="background-image: url(./img/geography-book.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <p style="padding-top: 15px; font-size: 20px;">اقتصاد و مدیریت</p>
+                </div>
+                <hr>
+                <div class="row"
+                    style="background-image: url(./img/love-book.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <p style="padding-top: 20px; font-size: 20px;">سلامتی و بهداشت</p>
+                </div>
+                <hr>
+                <div class="row"
+                    style="background-image: url(./img/engish-book.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <p style="padding-top: 15px; font-size: 20px;">آموزش زبان</p>
+                </div>
+                <hr>
+                <div class="row"
+                    style="background-image: url(./img/return-book-.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <p style="padding-top: 15px; font-size: 20px;">دین و آیین</p>
+                </div>
+                <hr>
+                <div class="row"
+                    style="background-image: url(./img/book-philosophy.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <p style="padding-top: 20px; font-size: 20px;">روانشناسی</p>
+                </div>
+                <hr>
+                <div class="row"
+                    style="background-image: url(./img/address-book.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <p style="padding-top: 15px; font-size: 20px;">ادبیات</p>
+                </div>
+                <hr>
+                <div class="row"
+                    style="background-image: url(./img/art-book.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <p style="padding-top: 15px; font-size: 20px;">هنری</p>
+                </div>
+                <hr>
+                <div class="row"
+                    style="background-image: url(./img/physic-book.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <p style="padding-top: 20px; font-size: 20px;">عمومی</p>
+                </div>
+                <hr>
+                <div class="row"
+                    style="background-image: url(./img/chemistry-book.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <p style="padding-top: 15px; font-size: 20px;">علوم</p>
+                </div>
+                <hr>
+                <div class="row"
+                    style="background-image: url(./img/physics-book.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <p style="padding-top: 15px; font-size: 20px;">تاریخ</p>
+                </div>
+                <hr>
+                <div class="row"
+                    style="background-image: url(./img/law-book.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <p style="padding-top: 20px; font-size: 20px;">حقوق</p>
+                </div>
+                <hr>
+                <div class="row"
+                    style="background-image: url(./img/journal.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
+                    <p style="padding-top: 15px; font-size: 20px;">مجله</p>
+                </div>
+            </div>
+        </aside>
+    </main>
+
 </body>
 
 </html>
