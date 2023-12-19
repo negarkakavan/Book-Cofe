@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-color: #f5f5f5;
+}
 .navbar-one {
   width: 100%;
   height: 70px;
@@ -9,9 +12,14 @@
   background-color: rgb(255, 255, 255);
 }
 .navbar-two {
+  display: flex;
   width: 100%;
-  height: 50px;
+  column-gap: 30px;
+  padding: 20px;
   background-color: #f64141;
+}
+.navbar-two div:hover{
+  cursor: pointer;
 }
 .logo {
   display: flex;
@@ -80,7 +88,7 @@
   text-decoration: none;
 }
 .log-in:hover {
-  background-color: rgb(255, 0, 0);
+  background-color: #f64141;
 }
 .log-in:link {
   color: rgb(0, 0, 0);
@@ -131,4 +139,38 @@ marquee {
   font-family: IRANSans, sans-serif, Helvetica;
   color: rgb(0, 0, 0);
   background-color: #ffcb6e;
+}
+.aside{
+  width: 250px;
+  height: 973px;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  background-color: white;
+  float: right;
+  direction: rtl;
+}
+.aside:hover{
+  cursor: pointer;
+}
+.row{
+  display: flex;
+}
+.row:hover{
+  color: #f64141;
+}
+.row a{
+  margin-right: 35px;
+  margin-bottom: 15px;
+  text-decoration: none;
+ }
+.row p{
+ margin-right: 35px;
+ margin-bottom: 15px;
+ 
+}
+.row i{
+  margin-right: 80px;
+ margin-top: 20px;
+}
+.dark-mode{
+  background-color: black;
 }
