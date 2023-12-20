@@ -6,12 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main-page</title>
     <link rel="stylesheet" href="./Main-page.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="./imgs/favicon-32x32.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./todo-list.css" />
-    <link rel="preload" href="./imgs/icon-check.svg" as="image" type="image/svg+xml" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -38,9 +33,18 @@
         </div>
         <nav class="navbar-two">
             <div><img src="./img/dark-mode.png" width="30px" height="30px"></div>
-            <div><img src="./img/question-mark.png" width="30px" height="30px"></div>
-            <div> <img src="./img/cart.png" width="30px" height="30px"></div>
-            <div><img src="./img/male-user.png" width="30px" height="30px"></div>
+            <div class="Guide">
+                <img src="./img/question-mark.png" width="30px" height="30px">
+                <p>راهنما</p>
+            </div>
+            <div class="Cart">
+                <img src="./img/cart.png" width="30px" height="30px">
+                <p>سبد خرید</p>
+            </div>
+            <div class="profile">
+                <img src="./img/male-user.png" width="30px" height="30px">
+                <p>پروفایل</p>
+            </div>
         </nav>
         <marquee>
             به وب سایت کافه کتاب خوش آمدید
@@ -48,9 +52,139 @@
     </header>
     <!-- main -->
     <main class="main">
+        <div class="main-box">
+            <div class="box-one">
+                <div class="poster">
+                    <img src="./img/poster-one.jpg" width="370px" height="200px" style="border-radius: 5px;">
+                </div>
+                <div class="poster">
+                    <img src="./img/poster-two.jpg" width="370px" height="200px" style="border-radius: 5px;">
+                </div>
+                <div class="poster">
+                    <img src="./img/poster-three.jpg" width="370px" height="200px" style="border-radius: 5px;">
+                </div>
+            </div>
+            <div class="box-two">
+                <div class="box-title">
+                    <div class="see-all">مشاهده همه</div>
+                    <div class="title">کتاب های متنی</div>
+                </div>
+                <hr>
+            </div>
+            <div class="box-three">
+                <div class="box-book">
+                    <div class="book">
+                        <img src="./img/book-one.jpg" width="200px" height="280px">
+                    </div>
+                    <div class="book">
+                        <img src="./img/book-two.jpg" width="200px" height="280px">
+                    </div>
+                    <div class="book">
+                        <img src="./img/book-three.jpg" width="200px" height="280px">
+                    </div>
+                    <div class="book">
+                        <img src="./img/book-four.jpg" width="200px" height="280px">
+                    </div>
+                </div>
+                <div class="box-name-book">
+                    <p class="name-book-one">کتابخانه نیمه شب</p>
+                    <p class="name-book-two">چگونه عزت نفس خود را بسازیم؟</p>
+                    <p class="name-book-three">خردم کن</p>
+                    <p class="name-book-four">بازی های میراث</p>
+                </div>
+            </div>
+            <div class="box-two">
+                <div class="box-title">
+                    <div class="titlee">ژانر های محبوب</div>
+                </div>
+            </div>
+            <div class="box-four">
+                <div class="box-genre">
+                    <div class="genre">
+                        <img src="./img/genre-one.png" width="120px" height="120px">
+                    </div>
+                    <div class="genre">
+                        <img src="./img/genre-two.png" width="120px" height="120px">
+                    </div>
+                    <div class="genre">
+                        <img src="./img/genre-three.png" width="120px" height="120px">
+                    </div>
+                    <div class="genre">
+                        <img src="./img/genre-four.png" width="120px" height="120px">
+                    </div>
+                    <div class="genre">
+                        <img src="./img/genre-five.png" width="120px" height="120px">
+                    </div>
+                    <div class="genre">
+                        <img src="./img/genre-six.png" width="120px" height="120px">
+                    </div>
+                    <div class="genre">
+                        <img src="./img/genre-seven.png" width="120px" height="120px">
+                    </div>
+                    <div class="genre">
+                        <img src="./img/genre-eight.png" width="120px" height="120px">
+                    </div>
+                    <div class="genre">
+                        <img src="./img/genre-nine.png" width="120px" height="120px">
+                    </div>
+                </div>
+                <div class="text-genre">
+                    <p class="name-genre-one">سفرنامه</p>
+                    <p class="name-genre-two">ورزشی</p>
+                    <p class="name-genre-three">عاشقانه</p>
+                    <p class="name-genre-four">رازآلود</p>
+                    <p class="name-genre-five">موسیقی</p>
+                    <p class="name-genre-six">طنز</p>
+                    <p class="name-genre-seven">وحشت</p>
+                    <p class="name-genre-eight">تاریخی</p>
+                    <p class="name-genre-nine">جنایی</p>
+                </div>
+            </div>
+            <div class="box-two">
+                <div class="box-title2">
+                    <div class="see-all">مشاهده همه</div>
+                    <div class="title2">کتاب های صوتی</div>
+                </div>
+                <hr>
+            </div>
+            <div class="box-three">
+                <div class="box-book">
+                    <div class="book">
+                        <img src="./img/book-five.jpg" width="200px" height="280px">
+                    </div>
+                    <div class="book">
+                        <img src="./img/book-six.jpg" width="200px" height="280px">
+                    </div>
+                    <div class="book">
+                        <img src="./img/book-seven.jpg" width="200px" height="280px">
+                    </div>
+                    <div class="book">
+                        <img src="./img/book-eight.jpg" width="200px" height="280px">
+                    </div>
+                </div>
+                <div class="box-name-book">
+                    <p class="book-five"> شب های روشن</p>
+                    <p class="book-six">هوا و رویاها</p>
+                    <p class="book-seven">انسان در جست و جوی معنا</p>
+                    <p class="book-eight">قدرت سکوت</p>
+                </div>
+                
+            </div>
+                <div class="box-one">
+                    <div class="poster">
+                        <img src="./img/poster-four.jpg" width="370px" height="200px" style="border-radius: 5px;">
+                    </div>
+                    <div class="poster">
+                        <img src="./img/poster-five.jpg" width="370px" height="200px" style="border-radius: 5px;">
+                    </div>
+                    <div class="poster">
+                        <img src="./img/poster-six.jpg" width="370px" height="200px" style="border-radius: 5px;">
+                    </div>
+                </div>
+        </div>
         <!-- aside -->
         <aside id="sidebar" class="aside">
-            
+
             <div class="div">
                 <div class="row"
                     style="background-image: url(./img/home.png); background-size: 20px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
@@ -59,12 +193,14 @@
                 <hr>
                 <div class="row"
                     style="background-image: url(./img/moleskine.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
-                    <p style="padding-top: 20px; font-size: 20px;">کتاب های متنی</p>
+                    <p style="padding-top: 20px; font-size: 20px;">کتاب های متنی <i
+                            class="material-icons">expand_more</i></p>
                 </div>
                 <hr>
-                <div class="row"
+                <div class="row-one"
                     style="background-image: url(./img/audio-book.png); background-size: 22px; background-repeat: no-repeat; background-position: right; margin-right: 20px;">
-                    <p style="padding-top: 15px; font-size: 20px;">کتاب های صوتی</p>
+                    <p style="padding-top: 15px; font-size: 20px;">کتاب های صوتی <i
+                            class="material-icons">expand_more</i></p>
                 </div>
                 <hr>
                 <div class="row"
