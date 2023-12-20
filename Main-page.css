@@ -139,8 +139,8 @@ marquee {
   background-color: #ffcb6e;
 }
 .aside {
-  width: 250px;
-  height: 1010px;
+  width: 270px;
+  height: 1040px;
   border: 1px solid rgba(0, 0, 0, 0.192);
   background-color: white;
   float: right;
@@ -427,4 +427,28 @@ main {
 .book-eight:hover{
   cursor: pointer;
   color: #f64141;
+}
+footer{
+  width: 100%;
+  height: 300px;
+  background-color: #3f3f3f;
+}
+.footer{
+  display: flex;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  column-gap: 188px;
+  padding : 20px 100px 20px 20px;
+  direction: rtl;
+}
+.hr{
+  width: 85%;
+  margin-left: 150px;
+}
+.text-foot p{
+  margin-top: 20px;
+}
+.text-footr{
+  margin-right: 400px;
 }
